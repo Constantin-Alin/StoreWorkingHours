@@ -8,7 +8,7 @@ public class Store {
 
         if (hour >= 9 && hour < 22) {
             System.out.println("It's open!");
-        } else if (hour >= 24 || hour <= 0) {
+        } else if (hour > 24 || hour < 0) {
             System.out.println("Error");
         }
         else {
